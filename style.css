@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: brown;
-    background-image: url(background.jpg);
+    background-color: burlywood;       /*.....if some thing wrong in image background.....*/
+    background-image: url(./images/background.jpg);
 }
 .container{
     width: 40%;

@@ -17,8 +17,14 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     ranNum = Math.floor(Math.random() * 3 ) + 1;
     generateCompChoice();
     compareChoices ();
-    computerPick.innerHTML = '<img src="' + computerChoice + '.png">';
-    userPick.innerHTML = '<img src="' + userChoice + '.png">';
+    //computer choices as images .......
+    if (computerChoice == 'rock') computerPick.innerHTML = '<img src="./images/rock.png">';
+    else if (computerChoice == 'paper') computerPick.innerHTML = '<img src="./images/paper.png">';
+    else computerPick.innerHTML = '<img src="./images/scissors.png">';
+    // user choices as images .......
+    if (userChoice == 'rock') userPick.innerHTML = '<img src="./images/rock.png">';
+    else if  (userChoice == 'paper') userPick.innerHTML = '<img src="./images/paper.png">';
+    else userPick.innerHTML = '<img src="./images/scissors.png">';
     displayResult.innerHTML = result;
 }))
 
