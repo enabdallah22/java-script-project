@@ -46,3 +46,6 @@ body{
 #playAgain :hover{
     cursor: pointer;
 }
+.container #result {
+    color: red;
+}
