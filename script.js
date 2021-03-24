@@ -42,8 +42,7 @@ function generateCompChoice(){
 
 function compareChoices(){
     //..............tie........
-    if(userChoice == computerChoice)
-    result = "!! Tie !!";
+    if(userChoice == computerChoice) result = "!! Tie !!";
     /////..........user win .......
     else if (userChoice == 'scissors' && computerChoice == 'paper')
     result = "!! You Win !!";
