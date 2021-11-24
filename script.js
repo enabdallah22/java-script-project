@@ -18,13 +18,13 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     generateCompChoice();
     compareChoices ();
     //computer choices as images .......
-    if (computerChoice == 'rock') computerPick.innerHTML = 'rock' + '<img src="./images/rock.png">';
-    else if (computerChoice == 'paper') computerPick.innerHTML = 'paper' + '<img src="./images/paper.png">';
-    else computerPick.innerHTML = 'scissors' + '<img src="./images/scissors.png">';
+    if (computerChoice == 'rock') computerPick.innerHTML = 'rock' + '<img src="./images/rock.PNG">';
+    else if (computerChoice == 'paper') computerPick.innerHTML = 'paper' + '<img src="./images/paper.PNG">';
+    else computerPick.innerHTML = 'scissors' + '<img src="./images/scissors.PNG">';
     // user choices as images .......
-    if (userChoice == 'rock') userPick.innerHTML = 'rock' + '<img src="./images/rock.png">';
-    else if  (userChoice == 'paper') userPick.innerHTML = 'paper' + '<img src="./images/paper.png">';
-    else userPick.innerHTML = 'scissors' + '<img src="./images/scissors.png">';
+    if (userChoice == 'rock') userPick.innerHTML = 'rock' + '<img src="./images/rock.PNG">';
+    else if  (userChoice == 'paper') userPick.innerHTML = 'paper' + '<img src="./images/paper.PNG">';
+    else userPick.innerHTML = 'scissors' + '<img src="./images/scissors.PNG">';
     displayResult.innerHTML = '>>>' + result + '<<<';
 }))
 
